@@ -1,0 +1,33 @@
+{
+    "name":"Anilist Oauth Webserver",
+    "description":"Helps with oauth",
+    "keywords":[
+        "Pyrogram",
+        "Telegram",
+        "Bot",
+        "Anime",
+        "Anilist"
+    ],
+    "repository":"https://github.com/lostb053/anilist_oauth_webserver",
+    "website":"https://github.com/lostb053/anilist_oauth_webserver",
+    "success_url":"https://t.me/lostb053",
+    "env":{
+        "DB_URL":{
+            "description":"Mongodb url from https://cloud.mongodb.com/, guide: https://del.dog/mongodb_guide"
+        },
+        "BOT_NAME":{
+            "description":"Your bot name without @, like @hanabi_robot, Note: enter exact bot name with exact letters that are in capital"
+        }
+    },
+    "buildpacks":[
+        {
+            "url":"heroku/python"
+        }
+    ],
+    "formation":{
+        "web":{
+            "quantity":1,
+            "size":"free"
+        }
+    }
+}
