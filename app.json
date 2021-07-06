@@ -16,7 +16,7 @@
             "description":"Mongodb url from https://cloud.mongodb.com/, guide: https://del.dog/mongodb_guide"
         },
         "BOT_NAME":{
-            "description":"Your bot name without @, like @hanabi_robot, Note: enter exact bot name with exact letters that are in capital"
+            "description":"Your bot name without @, like hanabi_anibot"
         }
     },
     "buildpacks":[
