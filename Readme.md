@@ -5,7 +5,7 @@
 
 ## Requirements
 * Python 3.9.6
-* `BOT_NAME` variable - yout tg bot name without @ where you have deployed and running anibot, like 'hanabit_anibot'
+* `BOT_NAME` variable - yout tg bot name without @ where you have deployed and running anibot, like 'hanabi_anibot'
 * `DB_URL` variable - mongodb url used in anibot deployment
 
 
