@@ -2,10 +2,6 @@
     "name":"Anilist Oauth Webserver",
     "description":"Helps with oauth",
     "keywords":[
-        "Pyrogram",
-        "Telegram",
-        "Bot",
-        "Anime",
         "Anilist"
     ],
     "repository":"https://github.com/lostb053/anilist_oauth_webserver",
